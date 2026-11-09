@@ -1,0 +1,5 @@
+__pycache__/
+*.csv
+*.zip
+Pragyan_NER_Final/
+.ipynb_checkpoints/
