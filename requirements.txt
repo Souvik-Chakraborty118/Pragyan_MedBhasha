@@ -1,0 +1,13 @@
+torch
+transformers
+langchain-core
+langchain-community
+langchain-huggingface
+sentence-transformers
+bitsandbytes
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+faiss-cpu
