@@ -1,5 +1,8 @@
-__pycache__/
-*.csv
+_pycache_/
 *.zip
-Pragyan_NER_Final/
 .ipynb_checkpoints/
+Pragyan_NER_Final/
+
+# Ignore the heavy test datasets so don't bloat GitHub repo
+medbhasha_bengali_clinical_notes(test data).csv
+test_queries_bn.csv
