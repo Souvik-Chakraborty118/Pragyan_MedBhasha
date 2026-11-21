@@ -49,7 +49,7 @@ To group clinical notes into distinct patient phenotypes, we utilized a hybrid f
   * **Silhouette Score:** 0.2428
   * **Davies-Bouldin Index:** 1.2412
 
-PCA Projection of Phenotypes diagram is phenotype\_clusters\_final.png in repository
+PCA Projection of Phenotypes diagram is phenotype_clusters.png in repository
 **Phase 3: RAG Medical Assistant**
 ---
 
@@ -79,7 +79,7 @@ To run a NER trainer, dense embedders and a 8-billion parameter LLM on a single 
 ## Setup \& Execution
 
 1. **Clone the repository**
-2. **Load Environment:** Upload `Pragyan\\\_MedBasha.ipynb` to Google Colab (T4 GPU Runtime).
+2. **Load Environment:** Upload `final_notebook.ipynb` to Google Colab (T4 GPU Runtime).
 3. **Mount Model Weights:** Mount your Google Drive to load the pre-trained 25-epoch BanglaBERT NER model from the `/Pragyan\\\_NER\\\_Final` folder (Do not retrain the model on the test set)*.*
 4. **Data Swap:** Replace `annoted\\\_corpus.csv` with the newly released hidden test set provided by the organizers.
 5. **Run Pipeline:**
